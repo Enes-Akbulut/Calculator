@@ -20,19 +20,19 @@ public class Main {
 
         switch (select) {
             case 1:
-                System.out.println("Additon= "+number1 + number2);
+                System.out.println("Additon= "+(number1 + number2));
                 break;
             case 2:
-                System.out.println("Subtraction= "+number1 - number2);
+                System.out.println("Subtraction= "+(number1 - number2));
                 break;
             case 3:
-                System.out.println("Multiplication="+number1 * number2);
+                System.out.println("Multiplication="+(number1 * number2));
                 break;
             case 4:
                 if ((number1 == 0) || (number2 == 0)) {
                     System.out.println("You can't divide using 0 (zero)");
                 } else {
-                    System.out.println("Divison="+number1 / number2);
+                    System.out.println("Divison="+(number1 / number2));
                 }
                 break;
             default:
