@@ -33,6 +33,8 @@ public class Main {
                     System.out.println("You can't divide using 0 (zero)");
                 }else{  System.out.println(number1/number2);}
                 break;
+                default:
+                System.out.println("You selected  an invalid number. Choose the numbers from 1 to 4.");
         }
 
     }
